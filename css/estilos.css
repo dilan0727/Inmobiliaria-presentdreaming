@@ -1,0 +1,105 @@
+
+:root {
+	--color-principal: rgb(0, 73, 230);
+}	
+.forma__titulo {
+	margin: 0 auto;
+	font-size: 30px;
+	display: inline-flex;
+	vertical-align:middle;
+	text-align:initial;
+	color: rgb(1, 34, 104);
+	font-weight:unset;
+	text-align: center;
+	border: 3px solid #555;
+	border-top: 1px solid white;
+	border-left: 1px solid white;
+	border-right: 1px solid white;
+  }
+
+.form-group{
+	font-family: Bungee;
+	font-size: 20px;
+	color: #2c0000;
+	background-color: #ffffff; 
+	padding: 9px; 
+	display: flex;
+	flex-direction: column;
+	
+	width: 50%;
+	margin: 0 auto;
+}
+.form-control{
+	display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+    box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+
+}
+.btn{
+	position: relative;
+  display: block;
+  height: 50px;
+  width: 40%;
+  border-radius: 4px;
+  background-color: transparent;
+  color: rgb(36, 34, 34);
+  font-size: 15px;
+  overflow: hidden;
+  transition: all 500ms ease;
+  border: 6px ;
+  margin-bottom: 60px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.btn::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: auto;
+    background-color: rgb(192, 202, 0);
+    transition: all 500ms ease;
+    z-index: -1;
+  }
+.btnes:hover{
+  background-color: rgb(53, 68, 92);
+  box-shadow: 0 0 10px rgb(55, 104, 179), 0 0 20px rgb(55, 104, 179), 0 0 20px rgb(55, 104, 179);
+  color: rgb(241, 238, 238); 
+  
+
+}
+
+.btnes1:hover{
+	background-color: rgb(255, 254, 234);
+	box-shadow: 0 0 10px rgb(218, 208, 75), 0 0 20px rgb(218, 208, 75), 0 0 20px rgb(218, 208, 75);
+	color: rgb(241, 238, 238); 
+}
+.carpet {
+	display: inline-block;
+	cursor: pointer;
+	margin: 0;
+	font-style: italic;
+	padding: 1px;
+				  
+  }
+
+
+  
+
+
+
